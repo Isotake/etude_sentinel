@@ -22,7 +22,21 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
+# etude_sentinel
+
+## simple Sentinel demo on Laravel 5.2
+
+-register
+-activation
+-re-activation
+-login
+-logout
+-password-reset
+
+## References and Credits
+[Sentinel Manual :: Cartalyst](https://cartalyst.com/manual/sentinel/2.0)
+[tanaka's Programming Memo (lang:ja)](http://am1tanaka.hatenablog.com/entry/2016/06/29/003308)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-# etude_sentinel

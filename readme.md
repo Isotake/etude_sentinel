@@ -1,6 +1,6 @@
 # etude_sentinel
 
-## simple Sentinel demo on Laravel 5.2
+## Simple Sentinel demo on Laravel 5.2
 
 1. register
 2. activation
@@ -8,6 +8,15 @@
 4. login
 5. logout
 6. password-reset
+
+## Install
+ $ sudo vim /etc/httpd/conf/httpd.conf
+ <Directory /var/www/html/laravel/public>
+     AllowOverride All
+     Order allow,deny
+     Allow from all
+ </Directory>
+ $ sudo systemctl restart http
 
 ## References and Credits
 * [Sentinel Manual :: Cartalyst](https://cartalyst.com/manual/sentinel/2.0)

@@ -12,8 +12,7 @@
 ## Install
 
 ```httpd.conf
-$ sudo vim /etc/httpd/conf/httpd.conf  
-<Directory /var/www/html/laravel/public>
+<Directory /var/www/html/etude_sentinel/public>
     AllowOverride All
     Order allow,deny
     Allow from all

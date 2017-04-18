@@ -10,7 +10,7 @@
 6. password-reset
 
 ## Install
- `$ sudo vim /etc/httpd/conf/httpd.conf 
+ `$ sudo vim /etc/httpd/conf/httpd.conf  
  <Directory /var/www/html/laravel/public>
      AllowOverride All
      Order allow,deny

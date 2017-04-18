@@ -11,7 +11,8 @@
 
 ## Install
 
-```ruby:httpd.conf
+```
+$ vim httpd.conf
 <Directory /var/www/html/etude_sentinel/public>
     AllowOverride All
     Order allow,deny

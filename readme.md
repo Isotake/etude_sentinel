@@ -11,13 +11,20 @@
 
 ## Install
 
-```httpd.conf
+```php:httpd.conf
 <Directory /var/www/html/etude_sentinel/public>
     AllowOverride All
     Order allow,deny
     Allow from all
 </Directory>
 $ sudo systemctl restart http
+```
+
+```
+$ cd /var/www/html
+$ git clone git@github.com:Isotake/etude_sentinel.git
+$ cd etude_sentinel
+$ composer install
 ```
 
 ## References and Credits

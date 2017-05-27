@@ -13,6 +13,13 @@
 
 ```
 $ vim httpd.conf
+apache 2.4+
+<Directory /var/www/html/etude_sentinel/public>
+    AllowOverride All
+	Require all granted
+</Directory>
+
+apache 2.4-
 <Directory /var/www/html/etude_sentinel/public>
     AllowOverride All
     Order allow,deny
@@ -47,9 +54,9 @@ MAIL_PORT=25
 MAIL_USERNAME=null
 MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
-MAIL_FROM_NAME=‘mail_from_name’
-MAIL_FROM_ADDRESS=from@mail.addr
-MAIL_SENDMAIL='/usr/sbin/sendmail -bs'
+MAIL_FROM_NAME="mail_from_name"
+MAIL_FROM_ADDRESS="from@mail.addr"
+MAIL_SENDMAIL="/usr/sbin/sendmail -bs"
 MAIL_PRETEND=false
 ```
 

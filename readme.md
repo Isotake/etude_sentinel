@@ -18,7 +18,7 @@ $ vim httpd.conf
     Order allow,deny
     Allow from all
 </Directory>
-$ sudo systemctl restart http
+$ sudo systemctl restart httpd
 ```
 
 ```
